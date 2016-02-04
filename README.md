@@ -2,9 +2,9 @@
 desc-python-package
 ===================
 
-Cookiecutter_ template for a DESC Python package.
+Cookiecutter template for DESC Python packages.
 
-Generate a Python package project::
+###Usage:
 
     cookiecutter https://github.com/jchiang87/desc-python-package.git
 
