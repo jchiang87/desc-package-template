@@ -1,12 +1,12 @@
 """
-Unit tests for {{cookiecutter.repo_name}} package
+Example unit tests for {{cookiecutter.repo_name}} package
 """
 import unittest
 import desc.{{cookiecutter.repo_name|lower}}
 
 class {{cookiecutter.repo_name}}TestCase(unittest.TestCase):
     def setUp(self):
-        self.message = 'Howdy world'
+        self.message = 'Hello, world'
         
     def tearDown(self):
         pass

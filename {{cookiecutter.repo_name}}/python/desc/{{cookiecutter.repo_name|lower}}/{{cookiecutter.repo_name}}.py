@@ -9,4 +9,3 @@ class {{cookiecutter.repo_name}}(object):
         if raise_error:
             raise RuntimeError()
         return self.message
-        
