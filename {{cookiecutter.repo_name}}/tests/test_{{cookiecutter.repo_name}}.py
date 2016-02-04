@@ -16,7 +16,8 @@ class {{cookiecutter.repo_name}}TestCase(unittest.TestCase):
         self.assertEquals(foo.run(), self.message)
 
     def test_failure(self):
-        foo = desc.{{cookiecutter.repo_name|lower}}.{{cookiecutter.repo_name}}()
+        self.assertRaises(TypeError, desc.{{cookiecutter.repo_name|lower}}.{{cookiecutter.repo_name}})
+        foo = desc.{{cookiecutter.repo_name|lower}}.{{cookiecutter.repo_name}}(self.message)
         self.assertRaises(RuntimeError, foo.run, True)
 
 if __name__ == '__main__':
