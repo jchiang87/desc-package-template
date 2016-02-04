@@ -9,7 +9,4 @@ class {{cookiecutter.repo_name}}(object):
         if raise_error:
             raise RuntimeError()
         return self.message
-
-if __name__ == '__main__':
-    foo = {{cookiecutter.repo_name}}()
-    print foo.run()
+        
