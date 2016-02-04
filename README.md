@@ -1,11 +1,8 @@
-===================
-desc-python-package
-===================
+# desc-package-template
 
-Cookiecutter template for DESC Python packages.
+[cookiecutter](https://cookiecutter.readthedocs.org/en/latest/) template for DESC Python packages.
 
-###Usage:
-
-    cookiecutter https://github.com/jchiang87/desc-python-package.git
-
-
+### Usage:
+```
+cookiecutter https://github.com/jchiang87/desc-package-template.git
+```
